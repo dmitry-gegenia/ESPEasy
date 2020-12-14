@@ -221,8 +221,6 @@ To create/register a plugin, you have to :
     #ifndef PLUGIN_BUILD_NORMAL
         #define PLUGIN_BUILD_NORMAL // defaults to stable, if not custom
     #endif
-
-    #define USES_P214
 #endif
 
 #ifdef PLUGIN_BUILD_NORMAL
@@ -798,6 +796,8 @@ To create/register a plugin, you have to :
     #define USES_P063   // TTP229_KeyPad
     #define USES_P073   // 7DG
     #define USES_P079   // Wemos Motoshield
+
+    #define USES_P214   //LCD 5110
 #endif
 
 
