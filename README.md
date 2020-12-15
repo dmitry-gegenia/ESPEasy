@@ -48,3 +48,16 @@ Additional details and discussion are on the "Experimental" section of the forum
 ## Icons used
 
 Icons on courtesy of [ICONS8](https://icons8.com/).
+
+## Connect LCD 5110
+
+LCD 5110  | NodeMCU v3  
+----------|-------------
+1 RST 	  | D2 (GPIO4) 
+2 CE 	  | D1 (GPIO5) 
+3 DC 	  | D0 (GPIO16)
+4 DIN 	  | D7 (GPIO13)
+5 CLK 	  | D5 (GPIO14)
+6 VCC 	  | 3V         
+7 Light   | NC         
+8 GND 	  | GND        
